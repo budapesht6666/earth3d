@@ -37,7 +37,7 @@ export const App: React.FC = () => {
 				onClick={() => setShowSettings(!showSettings)}
 				style={{ position: 'absolute', top: 12, right: 12, background: 'transparent', border: 'none', cursor: 'pointer' }}
 			>
-				<img src="/icons/settings-2.svg" alt="" width={24} height={24} />
+				<img src="./icons/settings-2.svg" alt="" width={24} height={24} />
 			</button>
 		</>
 	);

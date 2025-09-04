@@ -20,7 +20,7 @@ export const SettingsPanel: React.FC = () => {
 				<label className="label">{t.zoomSensitivity}: {zoomSensitivity.toFixed(2)}</label>
 				<input className="range" type="range" min={0.5} max={2.5} step={0.1} value={zoomSensitivity} onChange={e => setZoomSensitivity(Number(e.target.value))} />
 				<div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
-					<img src="/icons/languages.svg" alt="Language" width={18} height={18} style={{ opacity: 0.85 }} />
+					<img src="./icons/languages.svg" alt="Language" width={18} height={18} style={{ opacity: 0.85 }} />
 					<div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
 						<span style={{ fontSize: 12, opacity: 0.75 }}>RU</span>
 						<button
